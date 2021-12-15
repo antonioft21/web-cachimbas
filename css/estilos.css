@@ -1,0 +1,753 @@
+/* Quito los bordes a todo el cuerpo de la web, cambiando la fuente y haciendo la más grande */
+body{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+/* Ajustando el tamaño del logo */
+#logo{
+  width: 150px;
+}
+#logo img{
+  width: 100%;
+}
+/* Cambiando la fuente del menu */
+.header{
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+/* Ocultando el menu hamburguesa */
+.menu-btn{
+    display: none;
+}
+.menu-icon {
+    display: none;
+}
+/* Dando diseño al banner de encima del menú */
+#top-banner p{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+/* Dando diseño al menú */
+#menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-color:rgb(0, 0, 0);
+  box-sizing: border-box;
+  position: sticky;
+  box-shadow: 0 0 20px 0 #6e6e6e;
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+
+}
+#menu li{
+    margin: 10px;
+}
+#menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+/* Dando diseño al buscador del menú */
+#buscador{
+  margin-left: 50px;
+}
+#form-buscador{
+  display: flex;
+}
+#form-buscador input{
+  margin: 10px;
+}
+#form-buscador input[type="text"]{
+  width: 100%;
+  height: 25px;
+  border-radius: 10px;
+}
+#buscador img{
+  max-width: 20px;
+} 
+#buscador button{
+  background-color:rgb(255, 255, 255);
+  border-style: none;
+  cursor: pointer;
+}
+/* Dando diseño a los inconos de las redes sociales de la web */
+#iconos-tienda{
+  max-width: auto
+}
+#iconos-tienda img{
+  max-width: 30px;
+}
+/* Imagen principal del index */
+#promo{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+#promo img{
+  width: 100%;
+  margin: 20px;
+}
+/* Botones del carrusel de la imagen del index */
+#carrusel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#carrusel button{
+  border-style: none;
+  width: 40px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+/* Sección sobre nosotros del index */
+#fondo-about-us{
+  background-color: rgb(0, 0, 0);
+  height: auto;
+  display: flex;
+}
+#fondo-about-us img{
+  margin: 40px;
+  width: 50%;
+}
+#fondo-about-us p{
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  margin: 40px;
+}
+/* Separadores */
+hr{
+  margin: 0;
+}
+/* Sección colaboradores del index */
+#colaboradores{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto;
+}
+#colaboradores img{
+  width: 100%;
+}
+#colab{
+  max-width: 100px;
+  border-style: solid;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#colab:hover{
+  transform: rotate(10deg);
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+}
+#text-colabos{
+  text-align: center;
+}
+/* Sección donde estamos del index */
+#donde-estamos{
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+#pos-mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#pos-mapa iframe{
+  margin: 20px;
+  width: 100%;
+}
+#donde-estamos h2{
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  text-align: center;
+}
+/* Sección productos recomendados index */
+#productos-recomendados h2{
+  text-align: center;
+}
+#pos-productos-recomendados{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+#producto-recomendado{
+  width: 250px;
+  border-style: solid;
+  border-width: 2px;
+  padding:10px;
+  margin: 20px;
+  max-height: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+#producto-recomendado:hover{
+  box-shadow: 0 0 20px 0 #6e6e6e;
+  transform:scale(1.1);
+}
+#producto-recomendado img{
+  width:100%;
+}
+/* Footer */
+footer{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255,255, 255);
+  display: flex;
+  justify-content: space-around;
+}
+footer ul{
+  list-style: none;
+}
+footer h2{
+  text-align: center;
+}
+#newsletter img{
+  width: 20px;
+  margin: 10px;
+}
+#correo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#politicas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#correo input{
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border-style: none;
+  margin: 20px;  
+}
+#newsletter button{
+  border-style: none;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  border-radius: 10px;
+}
+/* Filtro de la página tienda */
+#filtro{
+  width: 25%;
+  margin: 20px;
+}
+#filtro a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+#marcas input[type="submit"]{
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  margin: 10px;
+}
+#marcas input[type="submit"]:hover{
+  box-shadow: 0 0 20px #6e6e6e;
+}
+#procedencia select{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  margin: 10px;
+}
+#precio input[type="range"]{
+  background-color: black;
+}
+#filtrar{
+  width: 200px;
+  height: 25px;
+  margin: 10px;
+}
+#filtro-rapido{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+#filtro-rapido p{
+  margin-right: 250px;
+}
+/* Div contenedor de la página tienda */
+#general{
+  display: flex;
+}
+/* Productos de la página tienda */
+#pos-productos{
+  display: flex;
+  width: 75%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* h2 de la página blog */
+#inicio-blog{
+  text-align: center;
+}
+/* Filtro para el blog */
+#temas{
+  width: 200px;
+  height: 50px;
+}
+#busqueda-blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+/* Apartados del blog */
+#secciones-blog{
+  display: flex;
+  margin: 10px;
+  width: 75%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+#seccion-blog{
+  max-width: 400px;
+  margin: 20px;
+  padding: 10px;
+
+}
+#seccion-blog img{
+  max-width: 100%;
+}
+#seccion-blog form{
+  text-align: center;
+}
+#seccion-blog input{
+  border-style: none;
+  background-color: rgb(255, 255, 255,1);
+  cursor: pointer;
+  font-size: 16px;
+}
+#seccion-blog:hover{
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+  border-radius: 10px;
+}
+/* Paginación del blog */
+#paginacion{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+/* Ficha interior del artículo */
+#art-blog{
+  background-image: url(https://img.freepik.com/foto-gratis/cierre-arriba-fondo-texturizado-brillo-gris_53876-63518.jpg?size=626&ext=jpg);
+  background-position: center;
+}
+#inicio-art-blog{
+  text-align: center;
+}
+#articulo{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  width: 700px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255,0.8);
+}
+#autor{
+  display: flex;
+  justify-content: center;
+}
+#articulo input{
+  margin: 10px;
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 20px;
+}
+#articulo input:hover{
+  cursor: pointer;
+}
+#articulo img{
+  width: 100%;
+}
+/* Inicio de la página servicios */
+#inicio-servicios{
+  font-size: 26px;
+  text-align: center;
+}
+/* Primera parte de la página servicios */
+#catering{
+  margin: 20px;
+}
+#info-catering{
+  width: 75%;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+#pos-img-catering{
+  margin: 20px;
+  width: 100%;
+}
+#que-es{
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  margin: 10px;
+}
+/* Tabla de precios de la página servicios */
+#precio{
+  width: 75%;
+  margin: 0 auto;
+}
+#precio h2{
+  text-align: center;
+}
+/* tablas de la página servicios */
+#tabla{
+  display: flex;
+  justify-content: center;
+}
+#tabla-tabacos{
+  display: flex;
+  justify-content: center;
+}
+#tabla table{
+  border-style: groove;
+  text-align: center;
+}
+#tabla td{
+  width: 100%;
+  height: 50px;
+}
+#tabla-tabacos table{
+  border-style: groove;
+  text-align: center;
+}
+/* Sección de oomo trabajamos de la página servicios */
+#como-trabajamos h2{
+  text-align: center;
+}
+#trabajo{
+  width: 75%;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  padding: 20px;
+}
+#trabajo img{
+  width: 50%;
+}
+#info-trabajo{
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  margin: 10px;
+}
+/* h2 de la segunda tabla de la página servicios */
+#tabacos h2{
+  text-align: center;
+}
+/* Formulario de la página contacto */
+#formulario-contacto{
+  margin: 20px;
+  display:flex;
+  justify-content: center;
+}
+#formulario-contacto fieldset{
+  border-radius: 10px;
+}
+#formulario-contacto label{
+  justify-content: space-around;
+  margin: 10px;
+}
+#formulario-contacto input{
+  margin: 10px;
+}
+#descripcion{
+  margin: 10px;
+}
+/* Sección donde estamos de la página contacto */
+#pos-info-ubi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#info-nosotros{
+  color: rgb(255, 255, 255);
+  display: flex;
+
+}
+#pos-enviar{
+  display: flex;
+  justify-content: center;
+}
+#info-contacto{
+  max-width: 500px;
+  margin: 10px;
+}
+
+.enviar{
+  width: 200px;
+  height: 25px;
+  margin: 10px;
+}
+/* Efecto h1 */
+
+/* Responsive */
+@media(max-width: 768px){
+  /* Buscador del menú */
+  #buscador{
+    display: none;
+  }
+  /* Iconos de las redes del menú */
+  #iconos-tienda{
+    display: none;
+  }
+ 
+  /* Formulario de la página contacto */
+  #formulario-contacto{
+    flex-wrap: wrap;
+  }
+  #formulario-contacto label{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #formulario-contacto legend{
+    text-align: center;
+  }
+  #descripcion textarea{
+    width: 100%;
+  }
+  /* Footer */
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #newsletter label{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #newsletter p{
+    text-align: center;
+  }
+  /* Sección donde estamos */
+  #donde-estamos{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* Sección donde estamos de la página contacto */
+  #pos-info-ubi{
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  /* Botones carrusel del index */
+  #carrusel button{
+    display: none;
+  }
+  /* Sobre nosotros index */
+  #fondo-about-us{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #fondo-about-us img{
+    margin: 0 auto;
+    width: 100%;
+  }
+  /* Colaboradores del index */
+  #colaboradores{
+    justify-content: center;
+  }
+  /* Productos recomendados del index */
+  #pos-productos-recomendados{
+    flex-wrap: wrap;
+  }
+  /* Página servicios */
+  #info-catering{
+    flex-wrap: wrap;
+  }
+  #info-catering img{
+    width: 100%;
+  }
+  #trabajo{
+    flex-wrap: wrap;
+  }
+  #trabajo img{
+    width: 100%;
+  }
+  #tabla {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #tabla-tabacos td{
+    width: 100%;
+    display: flex;
+    margin: 30px;
+  }
+  #tabla-tabacos tr{
+    margin:10px;
+  }
+  /* Página tienda */
+  #filtro{
+    display: none;
+  }
+  #filtro-rapido{
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  #filtro-rapido p{
+    margin: 10px;
+  }
+  #pos-productos{
+    margin: 0 auto;
+  }
+  #busqueda-blog{
+    margin: 0 auto;
+    margin: 10px;
+  }
+  #articulo{
+    width: 80%;
+  }
+  #articulo img{
+    width: 100%;
+  }
+  #pos-buscador{
+    width: 100%;
+  }
+  /* Menú */
+  #menu{
+    flex-wrap: wrap;
+  }
+  #menu a{
+    font-size: 16px;
+    width: 50%;
+  }
+  .menu li{
+    text-align: center;
+  }
+   /* Logo del menú */
+   #logo{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  span{
+    display: flex;
+    justify-content: center;
+  }
+    .header {
+        background-color: rgb(0, 0, 0);
+        box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+      }
+      
+      .header ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+        background-color:rgb(255, 255, 255);
+      }
+      
+      .header li a {
+        display: block;
+        text-decoration: none;
+      }
+      
+      
+      .header .logo {
+        display: block;
+        float: left;
+        font-size: 2em;
+        padding: 10px 20px;
+        text-decoration: none;
+      }
+      
+      /* menu */
+      
+      .header .menu {
+        clear: both;
+        max-height: 0;
+        transition: max-height .2s ease-out;
+      }
+      
+      /* menu icon */
+      
+      .header .menu-icon {
+        cursor: pointer;
+        display: inline-block;
+        flex-direction: column;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+      }
+      
+      .header .menu-icon .navicon {
+        background:rgb(0, 0, 0);
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background .2s ease-out;
+        width: 18px;
+      }
+      
+      .header .menu-icon .navicon:before,
+      .header .menu-icon .navicon:after {
+        background: rgb(0, 0, 0);
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+      }
+      
+      .header .menu-icon .navicon:before {
+        top: 5px;
+      }
+      
+      .header .menu-icon .navicon:after {
+        top: -5px;
+      }
+      
+      /* menu btn */
+      
+      .header .menu-btn {
+        display: none;
+      }
+      
+      .header .menu-btn:checked ~ .menu {
+        max-height: 240px;
+      }
+      
+      .header .menu-btn:checked ~ .menu-icon .navicon {
+        background: transparent;
+      }
+      
+      .header .menu-btn:checked ~ .menu-icon .navicon:before {
+        transform: rotate(-45deg);
+      }
+      
+      .header .menu-btn:checked ~ .menu-icon .navicon:after {
+        transform: rotate(45deg);
+      }
+      
+      .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+      .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+        top: 0;
+      }
+    .header{
+        position: inherit;
+    }
+
+}

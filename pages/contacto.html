@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link  rel="icon"   href="../assets/logo.png" type="image/png" />
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <header class="header">
+        <!-- Banner de encima del menú -->
+        <div id="top-banner"><p>Envío 24/48H a toda la península a partir de 25€</p></div>
+        <!-- Banner de encima del menú -->
+        <nav id="menu">
+            <div id="iconos-tienda">
+                <ul>
+                    <li><a href="#"><img src="../assets/cesta.png" alt="Cesta de la compra"></a></li>
+                    <li><a href=""><img src="../assets/usuario.png" alt="Icono de acceso usuario"></a></li>
+                    <li><a href=""><img src="../assets/deseos.png" alt="Icono de lista de deseos"></a></li>
+                </ul>
+            </div>
+            <div id="pos-buscador">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./tienda.html">Tienda</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contacto.html"> Contacto</a></li>
+                </ul>
+                <div id="buscador">
+                    <form action="#" method="POST" id="form-buscador">
+                        <input type="text" name="buscador" placeholder="Busca entre mas de 155 marca">
+                        <button type="submit" name="buscar" value="Buscar"><img src="../assets/lupa.png" alt="Icono de una lupa"></button>
+                    </form>
+                </div>
+            </div>
+            <span>
+                <a href="../index.html" class="logo"><img src="../assets/logo.png" alt="Logo de la tienda" id="logo"></a>
+            </span>
+        </nav>
+    </header>
+    <!-- Div general de contacto -->
+    <div id="contacto">
+        <!-- Formulario de contacto -->
+        <div id="formulario-contacto">
+            <form action="#">
+                <legend>Contacto</legend>
+                <fieldset>
+                    <label for="nombre">
+                        <input type="text" name="nombre"  placeholder="Nombre">
+                    </label>
+                    <label for="Apellidos">
+                        <input type="text" name="apellidos"  placeholder="Apellidos">
+                    </label>
+                    <br>
+                    <label for="Correo">
+                        <input type="text" name="corre" placeholder="Correo">
+                    </label>
+                    <label for="Codigo">
+                        <input type="number" name="codigo" placeholder="Código de pedido">
+                    </label>
+                    <div id="descripcion">
+                        <textarea name="descripcion" id="" cols="60" rows="10" placeholder="Descripción del problema"></textarea>
+                    </div>
+                    <div id="pos-enviar">
+                        <button type="submit" class="enviar" name="enviar">Enviar</button>
+                    </div>
+                    
+                </fieldset>
+            </form>
+            <!-- Información sobre datos -->
+            <div id="info-contacto">
+                <p>Los datos de carácter personal que consten en la consulta serán tratados por Templo de la Shisha SL e incorporados a la actividad de tratamiento CONTACTOS, cuya finalidad es atender tus solicitudes, peticiones o consultas recibidas desde la web, mediante correo electrónico o telefónico.
+                    Dar respuesta a tu solicitud y hacer un seguimiento posterior.
+                    <br>
+                    <br>
+                La legitimación del tratamiento es tu consentimiento. Tus datos no serán cedidos a terceros. Tienes derecho a acceder, rectificar y suprimir tus datos, así como otros derechos como se explica en nuestra política de privacidad.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Sección donde estamos -->
+    <div id="donde-estamos">
+        <h2>DONDE ESTAMOS</h2>
+        <div id="pos-info-ubi">
+            <div id="pos-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.020081778573!2d-3.6088000127216437!3d37.175993726224206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fd395c2635eb%3A0xed86c6725d876cec!2s1001%20CACHIMBAS%20Granada!5e0!3m2!1ses!2ses!4v1638464611032!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div id="info-nosotros">
+                <p> Télefono de contacto: 456 781 848
+                    <br>
+                    Correo electrónico de consulta: eltemplodelashisha@gmail.com
+                    <br>
+                    Ubicación: Pedro Antonio de Alarcón, 64
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- Footer -->
+<footer>
+    <div id="informacion">
+        <h2>Información</h2>
+        <ul>
+            <li>Sobre nosotros</li>
+            <li>Información de envío</li>
+            <li>Nuestras tiendas</li>
+            <li>Puntos de fidelidad</li>
+            <li>Financiación</li>
+            <li>Políticas de privacidad</li>
+            <li>Términos y condiciones</li>
+            <li>Trabaja con nosotros</li>
+            <li>Venta al mayorista</li>
+        </ul>
+    </div>
+    <div id="cuenta">
+        <h2>Mi cuenta</h2>
+        <ul>
+            <li>Mi cuenta</li>
+            <li>Historial de pedidos</li>
+            <li>Olvidé mi contraseña</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Atención al cliente</h2>
+        <ul>
+            <li>Contacto</li>
+            <li>Devoluciones</li>
+            <li>Preguntas frecuentes</li>
+        </ul>
+    </div>
+    <div id="newsletter">
+        <h2>Newsletter</h2>
+        <p>No te pierdas nuestras novedades y suscríbete a nuestra newsletter</p>
+        <form action="#" method="POST">
+            <label for="correo" id="correo">
+                <input type="text" name="correo" placeholder="Tu e-mail">
+                <button type="submit" name="enviar" value="Enviar"><img src="../assets/carta.png" alt="Icono carta"> Enviar</button>
+            </label>
+            <label for="politicas" id="politicas">
+                <input type="checkbox" name="acepto">
+                <p>He leído y acepto todas las <u>Políticas de privacidad</u></p>
+            </label>
+        </form>
+    </div>
+</footer>
+</html>

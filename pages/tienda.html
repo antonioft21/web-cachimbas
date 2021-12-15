@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link  rel="icon"   href="../assets/logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <header class="header">
+        <!-- Banner de encima del menú -->
+        <div id="top-banner"><p>Envío 24/48H a toda la península a partir de 25€</p></div>
+        <!-- Banner de encima del menú -->
+        <nav id="menu">
+            <div id="iconos-tienda">
+                <ul>
+                    <li><a href="#"><img src="../assets/cesta.png" alt="Cesta de la compra"></a></li>
+                    <li><a href=""><img src="../assets/usuario.png" alt="Icono de acceso usuario"></a></li>
+                    <li><a href=""><img src="../assets/deseos.png" alt="Icono de lista de deseos"></a></li>
+                </ul>
+            </div>
+            <div id="pos-buscador">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./tienda.html">Tienda</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contacto.html"> Contacto</a></li>
+                </ul>
+                <div id="buscador">
+                    <form action="#" method="POST" id="form-buscador">
+                        <input type="text" name="buscador" placeholder="Busca entre mas de 155 marca">
+                        <button type="submit" name="buscar" value="Buscar"><img src="../assets/lupa.png" alt="Icono de una lupa"></button>
+                    </form>
+                </div>
+            </div>
+            <span>
+                <a href="../index.html" class="logo"><img src="../assets/logo.png" alt="Logo de la tienda" id="logo"></a>
+            </span>
+        </nav>
+    </header>
+    <!-- Div general -->
+    <div id="general">
+    <!-- Filtro grande -->
+    <div id="filtro">
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Filtro</legend>
+                <a href="../index.html">Inicio </a> / Productos
+                <div id="precio">
+                    <label for="precio">
+                        <p>Precio</p>
+                        <input type="range" name="precio" min="0" max="10000">
+                        <input type="submit" name="enviar" value="Enviar">
+                    </label>
+                </div>
+                <div id="marcas">
+                    <label for="marcas">
+                        <p>Marcas</p>
+                        <input type="submit" name="Moze" value="Moze">
+                        <input type="submit" name="Aladin" value="Aladin">
+                        <input type="submit" name="Wookah" value="Wookah">
+                        <input type="submit" name="Alpha" value="Alpha">
+                        <input type="submit" name="Steamulation" value="Steamulation">
+                    </label>
+                </div>
+                <div id="procedencia">
+                    <label for="Procedencia">
+                        <p>Procedencia</p>
+                        <select name="Procedencia" id="procedencia">
+                            <option value="Procedencia">Procedencia</option>
+                            <option value="Española">Española</option>
+                            <option value="Alemana">Alemana</option>
+                            <option value="Rusa">Rusa</option>
+                            <option value="Turca">Turca</option>
+                        </select>
+                    </label>
+                </div>
+                <input type="submit" name="Filtrar" value="Filtrar" id="filtrar">
+            </fieldset>
+        </form>
+    </div>
+    <!-- Productos y filtro pequeño -->
+    <div id="pos-productos">
+        <div id="filtro-rapido">
+            <p>Mostrando 12 de 24 artículos</p>
+            <form action="#" method="POST">
+                <select name="orden" id="orden">
+                    <option value="Por defecto">Por defecto</option>
+                    <option value="Orden alfabético">Orden alfabético</option>
+                    <option value="Orden por popularidad">Orden por popularidad</option>
+                    <option value="Orden por precio: más bajo">Orden por precio: más bajo</option>
+                    <option value="Orden por precio: más alto">Orden por precio: más alto</option>
+                </select>
+            </form>
+        </div>
+        <div id="producto-recomendado">
+            <img src="../assets/producto-recomendado1.jpg" alt="Producto recomendado según las compras de los clientes">
+            <hr>
+            <p>Punzón</p>
+            <p>9.99€</p>
+        </div>
+        <div id="producto-recomendado">
+            <img src="../assets/producto-recomendado2.png" alt="Producto recomendado según las compras de los clientes">
+            <hr>
+            <p>Cachimba Chamaleon</p>
+            <p>119.99€</p>
+        </div>
+        <div id="producto-recomendado">
+            <img src="../assets/producto-recomendado3.jpg" alt="Producto recomendado según las compras de los clientes">
+            <hr>
+            <p>Gestor de calor provost</p>
+            <p>3.99€</p>
+        </div>
+        <div id="producto-recomendado">
+            <img src="../assets/producto-recomendado4.png" alt="Producto recomendado según las compras de los cleintes">
+            <hr>
+            <p>Carbones 1KG</p>
+            <p>6.59€</p>
+        </div>
+        <div id="producto-recomendado">
+            <img src="../assets/producto-recomendado4.png" alt="Producto recomendado según las compras de los cleintes">
+            <hr>
+            <p>Carbones 1KG</p>
+            <p>6.59€</p>
+        </div>  
+        <div id="producto-recomendado">
+            <img src="../assets/producto-recomendado5.jpg" alt="Producto recomendado según las compras de los cleintes">
+            <hr>
+            <p>Alpha X Blanca</p>
+            <p>199.95€</p>
+        </div>
+        <div id="producto-recomendado">
+            <img src="../assets/producto-recomendado6.jpg" alt="Producto recomendado según las compras de los cleintes">
+            <hr>
+            <p>Cachimba Animalesys Lion</p>
+            <p>139.95€</p>
+        </div>
+        <div id="producto-recomendado">
+            <img src="../assets/producto-recomendado7.jpg" alt="Producto recomendado según las compras de los cleintes">
+            <hr>
+            <p>Cazoleta tradicional Elemento Agua</p>
+            <p>17.95€</p>
+        </div>
+        <div id="producto-recomendado">
+            <img src="../assets/producto-recomendado8.jpg" alt="Producto recomendado según las compras de los cleintes">
+            <hr>
+            <p>Base transparente moderna-tradi</p>
+            <p><s>39.95€</s> 24.95€</p>
+        </div>
+
+    </div>  
+    </div>
+</body>
+<!-- footer -->
+<footer>
+    <div id="informacion">
+        <h2>Información</h2>
+        <ul>
+            <li>Sobre nosotros</li>
+            <li>Información de envío</li>
+            <li>Nuestras tiendas</li>
+            <li>Puntos de fidelidad</li>
+            <li>Financiación</li>
+            <li>Políticas de privacidad</li>
+            <li>Términos y condiciones</li>
+            <li>Trabaja con nosotros</li>
+            <li>Venta al mayorista</li>
+        </ul>
+    </div>
+    <div id="cuenta">
+        <h2>Mi cuenta</h2>
+        <ul>
+            <li>Mi cuenta</li>
+            <li>Historial de pedidos</li>
+            <li>Olvidé mi contraseña</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Atención al cliente</h2>
+        <ul>
+            <li>Contacto</li>
+            <li>Devoluciones</li>
+            <li>Preguntas frecuentes</li>
+        </ul>
+    </div>
+    <div id="newsletter">
+        <h2>Newsletter</h2>
+        <p>No te pierdas nuestras novedades y suscríbete a nuestra newsletter</p>
+        <form action="#" method="POST">
+            <label for="correo" id="correo">
+                <input type="text" name="correo" placeholder="Tu e-mail">
+                <button type="submit" name="enviar" value="Enviar"><img src="../assets/carta.png" alt="Icono carta"> Enviar</button>
+            </label>
+            <label for="politicas" id="politicas">
+                <input type="checkbox" name="acepto">
+                <p>He leído y acepto todas las <u>Políticas de privacidad</u></p>
+            </label>
+        </form>
+    </div>
+</footer>
+</html>

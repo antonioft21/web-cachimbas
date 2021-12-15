@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link  rel="icon"   href="../assets/logo.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <header class="header">
+        <!-- Banner de encima del menú -->
+        <div id="top-banner"><p>Envío 24/48H a toda la península a partir de 25€</p></div>
+        <!-- Banner de encima del menú -->
+        <nav id="menu">
+            <div id="iconos-tienda">
+                <ul>
+                    <li><a href="#"><img src="../assets/cesta.png" alt="Cesta de la compra"></a></li>
+                    <li><a href=""><img src="../assets/usuario.png" alt="Icono de acceso usuario"></a></li>
+                    <li><a href=""><img src="../assets/deseos.png" alt="Icono de lista de deseos"></a></li>
+                </ul>
+            </div>
+            <div id="pos-buscador">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./tienda.html">Tienda</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contacto.html"> Contacto</a></li>
+                </ul>
+                <div id="buscador">
+                    <form action="#" method="POST" id="form-buscador">
+                        <input type="text" name="buscador" placeholder="Busca entre mas de 155 marca">
+                        <button type="submit" name="buscar" value="Buscar"><img src="../assets/lupa.png" alt="Icono de una lupa"></button>
+                    </form>
+                </div>
+            </div>
+            <span>
+                <a href="../index.html" class="logo"><img src="../assets/logo.png" alt="Logo de la tienda" id="logo"></a>
+            </span>
+        </nav>
+    </header>
+    <!-- Div contenedor -->
+    <div id="blog">
+        <div id="inicio-blog">
+            <h1>Blog Cachimberos</h1>
+        </div>
+        <!-- Filtro blog -->
+        <div id="busqueda-blog">
+            <form action="#" >
+                <label for="temas">
+                    Filtrar por:
+                    <select name="temas" id="temas">
+                        <option value="Todo">Todo</option>
+                        <option value="Carbones">Carbones</option>
+                        <option value="Cachimbas">Cachimbas</option>
+                        <option value="Lounge">Lounge</option>
+                        <option value="Sabores">Sabores</option>
+                    </select>
+                </label>
+            </form>
+        </div>
+        <!-- Artículos del blog -->
+        <div id="secciones-blog">
+            <article id="seccion-blog">
+                <img src="../assets/blog-fumar-en-madrid_480x480.jpg" alt="Mejores sitios para furmar en Madrid">
+                <p>Los mejores sitios para fumar en Madrid</p>
+                <cite>Fecha: 25 de noviembre de 2021</cite>
+                <p>Aunque parezca un mes un poco extraño, noviembre siempre trae consigo alguna sorpresa y no, nos referimos al Black Friday que, por cierto, también celebramos en La Cachimba con descuentos muy suculentos. Nosotros somos más valientes y combatimos el ruido de tanta oferta con unas novedades en cachimbas que hablan por sí solas.</p>
+                <form action="./art-blog.html">
+                    <input type="submit" name="leer mas" value="Leer más">
+                </form>
+            </article>
+            <article id="seccion-blog">
+                <img src="../assets/blog-novedades-cachimbas-diciembre_480x480.jpg" alt="Mejores cachimbas de diciembre">
+                <p>Las mejores cachimbas de diciembre</p>
+                <cite>Fecha: 25 de noviembre de 2021</cite>
+                <p>Aunque parezca un mes un poco extraño, noviembre siempre trae consigo alguna sorpresa y no, nos referimos al Black Friday que, por cierto, también celebramos en La Cachimba con descuentos muy suculentos. Nosotros somos más valientes y combatimos el ruido de tanta oferta con unas novedades en cachimbas que hablan por sí solas.</p>
+                <form action="./art-blog.html">
+                    <input type="submit" name="leer mas" value="Leer más">
+                </form>
+            </article>
+            <article id="seccion-blog">
+                <img src="../assets/blog-problemas-carbon_480x480.jpg" alt="Problemas carbones">
+                <p>¿Se convertirá el carbón de coco en un bien de lujo?</p>
+                <cite>Fecha: 13 de septiembre de 2021</cite>
+                <p>Fumar cachimba con carbón natural de coco se ha convertido en una costumbre. Y no es para menos ya que, se considera uno de los mejores productos para disfrutar de una sesión prolongada y con una gestión de calor óptima. Pero seguro que, hasta el momento no te has parado a pensar en todo el proceso que sigue este bien hasta que llega a tus manos. ¿Corre el riesgo de convertirse en un bien de lujo? Pues por lo que te vamos a contar a continuación, todo apunta a que sí.</p>
+                <form action="./art-blog.html">
+                    <input type="submit" name="leer mas" value="Leer más">
+                </form>
+            </article>
+            <article id="seccion-blog">
+                <img src="../assets/blog-top-4-tabacos_480x480.jpg" alt="Top 4 tabacos">
+                <p>Las 4 marcas de tabaco de cachimba favoritas de los cachimberos</p>
+                <cite>Fecha: 8 de noviembre de 2021</cite>
+                <p>Ya lo sabéis, pero el verdadero amante de la cachimba es un tremendo experto en marcas de tabaco, de hecho, no se pierde ni un lanzamiento y se conoce al dedillo casi todas las referencias más vendidas de cada marca. ¿Acabas de empezar en esto? Pues no te preocupes porque en este post te vamos a hablar sobre las cuatro marcas de tabaco de cachimba favoritas de los cachimberos.</p>
+                <form action="./art-blog.html">
+                    <input type="submit" name="leer mas" value="Leer más">
+                </form>
+            </article>
+            <article id="seccion-blog">
+                <img src="../assets/blog-fumar-en-madrid_480x480.jpg" alt="Mejores sitios para furmar en Madrid">
+                <p>Los mejores sitios para fumar en Madrid</p>
+                <cite>Fecha: 25 de noviembre de 2021</cite>
+                <p>Aunque parezca un mes un poco extraño, noviembre siempre trae consigo alguna sorpresa y no, nos referimos al Black Friday que, por cierto, también celebramos en La Cachimba con descuentos muy suculentos. Nosotros somos más valientes y combatimos el ruido de tanta oferta con unas novedades en cachimbas que hablan por sí solas.</p>
+                <form action="./art-blog.html">
+                    <input type="submit" name="leer mas" value="Leer más">
+                </form>
+            </article>
+            <article id="seccion-blog">
+                <img src="../assets/blog-fumar-en-madrid_480x480.jpg" alt="Mejores sitios para furmar en Madrid">
+                <p>Los mejores sitios para fumar en Madrid</p>
+                <cite>Fecha: 25 de noviembre de 2021</cite>
+                <p>Aunque parezca un mes un poco extraño, noviembre siempre trae consigo alguna sorpresa y no, nos referimos al Black Friday que, por cierto, también celebramos en La Cachimba con descuentos muy suculentos. Nosotros somos más valientes y combatimos el ruido de tanta oferta con unas novedades en cachimbas que hablan por sí solas.</p>
+                <form action="./art-blog.html">
+                    <input type="submit" name="leer mas" value="Leer más">
+                </form>
+            </article>
+        </div>
+        <!-- Paginación del blog -->
+        <div id="paginacion">
+            <form action="#">
+                <input type="submit" value="1">
+                <input type="submit" value="2">
+                <input type="submit" value="3">
+                <input type="submit" value="4">
+            </form>
+        </div>
+    </div>
+</body>
+<!-- Footer -->
+<footer>
+    <div id="informacion">
+        <h2>Información</h2>
+        <ul>
+            <li>Sobre nosotros</li>
+            <li>Información de envío</li>
+            <li>Nuestras tiendas</li>
+            <li>Puntos de fidelidad</li>
+            <li>Financiación</li>
+            <li>Políticas de privacidad</li>
+            <li>Términos y condiciones</li>
+            <li>Trabaja con nosotros</li>
+            <li>Venta al mayorista</li>
+        </ul>
+    </div>
+    <div id="cuenta">
+        <h2>Mi cuenta</h2>
+        <ul>
+            <li>Mi cuenta</li>
+            <li>Historial de pedidos</li>
+            <li>Olvidé mi contraseña</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Atención al cliente</h2>
+        <ul>
+            <li>Contacto</li>
+            <li>Devoluciones</li>
+            <li>Preguntas frecuentes</li>
+        </ul>
+    </div>
+    <div id="newsletter">
+        <h2>Newsletter</h2>
+        <p>No te pierdas nuestras novedades y suscríbete a nuestra newsletter</p>
+        <form action="#" method="POST">
+            <label for="correo" id="correo">
+                <input type="text" name="correo" placeholder="Tu e-mail">
+                <button type="submit" name="enviar" value="Enviar"><img src="../assets/carta.png" alt="Icono carta"> Enviar</button>
+            </label>
+            <label for="politicas" id="politicas">
+                <input type="checkbox" name="acepto">
+                <p>He leído y acepto todas las <u>Políticas de privacidad</u></p>
+            </label>
+        </form>
+    </div>
+</footer>
+</html>
