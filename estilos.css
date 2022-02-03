@@ -1,0 +1,14 @@
+.boton-menu {
+    color: rgb(205, 138, 50) !important;
+    font-family: 'Supermercado One', cursive !important;
+    font-size: 24px;
+}
+
+.listado {
+    margin: 100px;
+}
+
+.titulo {
+    font-family: 'Supermercado One', cursive !important;
+    color: rgb(255, 255, 255) !important;
+}
